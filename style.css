@@ -1,3 +1,13 @@
-div{
-    background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+}
+.hover{
+    color: aqua;
+    cursor: pointer;
+
+}
+.hover:hover{
+    color: brown;
+    background-color: darkgrey;
 }
