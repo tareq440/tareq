@@ -1,13 +1,170 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.hover{
-    color: aqua;
-    cursor: pointer;
+body{
+    min-height: 100vh;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background-color:lightpink;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section{
+    display: flex;
+    
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.title-text{
+    font-size: 400%;
+    margin-top: 80px;
+}
+.p-text{
+    color: red;
+    font-size: medium;
+}
+
+.btn-one{
+    background-color: red;
+    font-size: x-large;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 15px;
 
 }
-.hover:hover{
-    color: brown;
-    background-color: darkgrey;
+.btn-one:hover{
+    background-color: beige;
+}
+.banner-img{
+    
+    width: 100%;
+    height: 100%;
+    
+    padding: 46px;
+    margin-bottom: 3.5px;
+}
+.hot-deal-section{
+    width: 100%;
+    height: 550px;
+    margin-top: 5%;
+    background-color: rgb(230, 216, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    
+}
+.deal-text{
+    font-size: 30px;
+}
+.h1-tag{
+    font-weight: 700;
+    
+}
+.btnn{
+    background-color: orangered;
+    font-size: x-large;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 20px;
+    
+}
+
+.deal-imge{
+    width: auto;
+    margin-right: 200px;
+}
+.insta-tag{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.intagram-section{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 50px;
+    
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.input-section{
+    margin-top: 30%;
+    background-image: url(Rectangle\ 9.png);
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    border-radius: 10px;
+    align-items: center;
+    position: absolute;
+    
+    
+}
+
+.hr-tag{
+    
+    text-align: center;
+    align-items: center;
+    top: 50px;
+    
+}
+.pr-tag{
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.text-inp{
+    margin-top: 100px;
+}
+.input-label{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.fo-tar{
+    margin-top: 55%;
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+.foter{
+    margin-bottom: 50%;
+    align-items: center;
+    position: relative;
+}
+.spn{
+    color:rgb(207, 6, 99);
 }
